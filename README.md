@@ -4,7 +4,7 @@ This repository contains a Unity 2D parallax script designed to create a paralla
 
 https://github.com/user-attachments/assets/b03b4ee8-f0ac-43c4-8454-cc1aa6a685c9
 
-How to Use
+## How to Use
 
 Attach the Script to Each Layer:
 
@@ -13,7 +13,7 @@ Attach the parallax script to each of these GameObjects by dragging the script o
 Ensure each layer has the script attached to enable the parallax effect.
 
 
-Adjust Parallax Settings:
+## Adjust Parallax Settings:
 
 In the Unity Inspector, locate the parallax script component on each GameObject.
 Adjust the Parallax X and Parallax Y fields to control the intensity of the parallax effect:
@@ -26,7 +26,7 @@ Values close to 0 (e.g., 0.1): Used for nearer objects to create faster movement
 Experiment with values between 0 and 1 for each layer to achieve the desired depth effect. Farther layers (e.g., sky) should have values closer to 1, while nearer layers (e.g., foreground trees) should have values closer to 0.
 
 
-Test the Scene:
+## Test the Scene:
 
 Ensure your main camera is set up to move (e.g., following the player).
 Play the scene in Unity to observe the parallax effect.
@@ -34,13 +34,13 @@ Fine-tune the Parallax X and Y values as needed to perfect the scrolling effect.
 
 
 
-Notes
+## Notes
 
 The script assumes a 2D setup with a moving camera. Ensure your camera is configured to track the player or move as intended.
 For best results, organize your layers in the scene hierarchy and use appropriate sorting layers or Z positions to handle rendering order.
 If the script references the camera, ensure the main camera is tagged as "MainCamera" in Unity.
 
-Example
+## Example
 
 Attach the script to three layers:
 Sky (Parallax X: 0.95, Y: 0.9) – Farther, moves very slowly.
@@ -50,7 +50,7 @@ Trees (Parallax X: 0.1, Y: 0.2) – Nearer, moves quickly.
 
 When the camera moves, the Sky will appear distant with minimal movement, while Trees will move faster, creating a sense of depth.
 
-Contributing
+## Contributing
 Feel free to fork this repository and submit pull requests with improvements or bug fixes. For issues, please open a GitHub issue with details.
 
 

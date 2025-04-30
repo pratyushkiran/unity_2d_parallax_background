@@ -6,18 +6,18 @@ https://github.com/user-attachments/assets/b03b4ee8-f0ac-43c4-8454-cc1aa6a685c9
 
 ## How to Use
 
-Attach the Script to Each Layer:
+1. Attach the Script to Each Layer:
 
-Identify the GameObjects in your Unity scene that represent the background layers (e.g., sprites for sky, mountains, trees).
-Attach the parallax script to each of these GameObjects by dragging the script onto them or using the "Add Component" button in the Inspector and searching for the script name.
-Ensure each layer has the script attached to enable the parallax effect.
+- Identify the GameObjects in your Unity scene that represent the background layers (e.g., sprites for sky, mountains, trees).
+- Attach the parallax script to each of these GameObjects by dragging the script onto them or using the "Add Component" button in the Inspector and searching for the script name.
+- Ensure each layer has the script attached to enable the parallax effect.
 
 
-## Adjust Parallax Settings:
+2. Adjust Parallax Settings:
 
-In the Unity Inspector, locate the parallax script component on each GameObject.
-Adjust the Parallax X and Parallax Y fields to control the intensity of the parallax effect:
-Parallax X: Controls horizontal movement relative to the camera.
+- In the Unity Inspector, locate the parallax script component on each GameObject.
+- Adjust the Parallax X and Parallax Y fields to control the intensity of the parallax effect:
+    - Parallax X: Controls horizontal movement relative to the camera.
 Parallax Y: Controls vertical movement relative to the camera.
 Values close to 1 (e.g., 0.9): Used for farther objects to create slower movement, simulating greater distance.
 Values close to 0 (e.g., 0.1): Used for nearer objects to create faster movement, simulating proximity to the camera.

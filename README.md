@@ -26,9 +26,9 @@ https://github.com/user-attachments/assets/b03b4ee8-f0ac-43c4-8454-cc1aa6a685c9
 
 3. Test the Scene:
 
-Ensure your main camera is set up to move (e.g., following the player).
-Play the scene in Unity to observe the parallax effect.
-Fine-tune the Parallax X and Y values as needed to perfect the scrolling effect.
+    - Ensure your main camera is set up to move (e.g., following the player).
+    - Play the scene in Unity to observe the parallax effect.
+    - Fine-tune the Parallax X and Y values as needed to perfect the scrolling effect.
 
 
 

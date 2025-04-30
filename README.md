@@ -4,12 +4,7 @@ This repository contains a Unity 2D parallax script designed to create a paralla
 
 https://github.com/user-attachments/assets/b03b4ee8-f0ac-43c4-8454-cc1aa6a685c9
 
-
-<iframe width="560" height="315" src="https://github.com/user-attachments/assets/b03b4ee8-f0ac-43c4-8454-cc1aa6a685c9" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
 <img width="486" alt="image" src="https://github.com/user-attachments/assets/b7771b68-ad73-4086-8e38-9a9441e375d4" />
-
 
 ## How to Use
 

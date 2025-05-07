@@ -1,4 +1,4 @@
-# Unity 2d Parallax Background
+# Unity 2d Infinite Parallax Background
 
 This repository contains a Unity 2D parallax script designed to create a parallax scrolling effect for layered backgrounds in your 2D game. The script allows you to adjust the parallax effect on both the X and Y axes for each layer, with specific behavior for near and far objects.
 
